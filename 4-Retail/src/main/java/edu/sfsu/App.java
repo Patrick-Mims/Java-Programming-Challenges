@@ -3,10 +3,10 @@ package edu.sfsu;
 import java.util.ArrayList;
 
 public class App {
-    public static void main( String[] args) {
+    public static void main(String[] args) {
         ArrayList<Retail> retail = new ArrayList<>();
 
-        retail.add(new Retail("jacket", 59.95, 12));
+        retail.add(new Retail("Jacket", 59.95, 12));
         retail.add(new Retail("Jeans", 34.95, 40));
         retail.add(new Retail("Shirt", 23.95, 20));
 
